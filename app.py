@@ -246,3 +246,16 @@ if st.button("🔮 Predict Churn", use_container_width=True):
         )
 
         st.exception(e)
+
+# Footer
+st.markdown(
+    """
+    <hr>
+    <div style="text-align: center; color: gray; font-size: 14px;">
+        Customer Churn Prediction App<br>
+        Built with Python, Scikit-learn & Streamlit<br>
+        © 2026 Zubair Naseer
+    </div>
+    """,
+    unsafe_allow_html=True
+)
